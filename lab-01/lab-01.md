@@ -61,7 +61,7 @@ Da bismo potvrdili da je alat uspješno instaliran, pokrenućemo `help` komandu
 
 koja nam izlistava sve dostupne opcije.
 
-## Konfiguracija i generisanje *toolchain*-alat
+## Konfiguracija i generisanje *toolchain*-a
 
 Nakon što smo uspješno instalirali *Crosstool-NG*, možemo da pristupimo konfiguraciji
 željenog *toolchain*-a. U tom smislu, potrebno je da izaberemo odgovarajuću arhitekturu,
