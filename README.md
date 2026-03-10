@@ -28,12 +28,12 @@ Ukoliko se to zahtijeva u zadatku vježbe, rezultati rada se dostavljaju
 preko *GitHub* platforme. U tom smislu, student treba da napravi zasebnu granu (od
 glavne *main* grane) čiji naziv treba da bude formiran na sljedeći način:
 
-`lab-0x-<broj_indeksa>-2025>`
+`lab-0x-<broj_indeksa>-2026>`
 
 Npr. ako student predaje rješenje za laboratorijsku vježbu 3, a njegov broj indeksa je
 12345/22, onda naziv grane treba da bude:
 
-`lab-03-12345/22-2025`
+`lab-03-12345/22-2026`
 
 > [!IMPORTANT]
 > Prilikom predaje vježbe vodite računa da ne komitujete generisane fajlove. U tom smislu,
