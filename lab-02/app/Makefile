@@ -22,10 +22,7 @@ lib/libtest.a:
 lib/libtest.so:
 	$(MAKE) -C lib STATIC=$(STATIC)
 
-install:
-	@if [ ! -f app ]; then \
-		$(MAKE) app; \
-	fi
+install: app
 	mkdir -p $(DESTDIR)
 	cp app $(DESTDIR)
 
