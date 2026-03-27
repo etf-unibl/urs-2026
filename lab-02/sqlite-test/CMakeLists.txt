@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.0)
+project(sqlite-test)
+
+add_executable(sqlite-test sqlite-test.c)
+
+find_package(SQLite3 REQUIRED)
+
+target_include_directories(sqlite-test PRIVATE ${SQLite3_INCLUDE_DIRS})
+target_link_libraries(sqlite-test PRIVATE ${SQLite3_LIBRARIES})
